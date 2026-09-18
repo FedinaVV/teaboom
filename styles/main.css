@@ -696,6 +696,10 @@ body {
     .header__logo {
         margin-bottom: 20px;
     }
+
+    .card__title {
+        font-size: 25px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -705,6 +709,15 @@ body {
 
     .tabs-nav {
         flex-direction: column;
+    }
+
+    .card__price-new {
+        font-size: 14px;
+    }
+
+    .card__cart .ti-shopping-cart {
+        height: 35px;
+        width: 35px;
     }
 
     .slider__title {
