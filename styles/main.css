@@ -475,6 +475,7 @@ body {
     width: 100%;
     border: solid 1px #f0f0f0;
     background-color: #f6f7f8;
+    align-self: flex-start;
 }
 
 .sidebar__title {
@@ -563,6 +564,10 @@ body {
 }
 
 @media (max-width: 912px) {
+    .tab {
+        padding: 50px 40px;
+    }
+
     .tabs-nav {
         justify-content: center;
     }
