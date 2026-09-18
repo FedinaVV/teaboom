@@ -711,13 +711,12 @@ body {
         flex-direction: column;
     }
 
-    .card__price-new {
-        font-size: 14px;
+    .card__price {
+        padding: 0 15px;
     }
 
-    .card__cart .ti-shopping-cart {
-        height: 35px;
-        width: 35px;
+    .card__price-new {
+        font-size: 14px;
     }
 
     .slider__title {
